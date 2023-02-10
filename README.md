@@ -1,7 +1,7 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <h2 align="center">
-    ──「 ʜɪᴋᴀʀɪ 」──
+    ──「 ʜɪᴋᴀʀɪ ᴠ2 」──
 </h2>
 
 <p align="center">
@@ -99,7 +99,8 @@ Press `Ctrl+b` and then `d`
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b>[ʀᴇxᴀ](https://github.com/Rexashh)  ➻  [ᴘᴇʟᴇʀ](https://github.com/AnonymousX1025/FallenRobot) </b>
+- <b>[ʀᴇxᴀ](https://github.com/Rexashh)<b>
+- <b>[ᴘᴇʟᴇʀ](https://github.com/AnonymousX1025/FallenRobot) </b>
 <b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/Rexashh/HikariManageRobotV2) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʜɪᴋᴀʀɪ ᴍᴀɴᴀɢᴇ ʀᴏʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
 
 ━━━━━━━━━━━━━━━━━━━━
