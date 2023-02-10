@@ -346,7 +346,7 @@ def help_button(update, context):
 # MANU CALLBACK
 
 @run_async
-def laer_kanjut_callback(update, context): 
+def Rexa_prindapan_callback(update, context): 
     query = update.callback_query 
     if query.data == "menu_": 
         query.message.edit_text( 
@@ -370,7 +370,7 @@ def laer_kanjut_callback(update, context):
 # MUSIC CALLBACK
 
 @run_async
-def laer_kanjut_callback(update, context): 
+def Laer_kanjut_callback(update, context): 
     query = update.callback_query 
     if query.data == "laer_": 
         query.message.edit_text( 
@@ -405,7 +405,7 @@ def laer_kanjut_callback(update, context):
 
 
 @run_async     
-def bebas_busbas_callback(update, context):   
+def Bebas_busbas_callback(update, context):   
     query = update.callback_query
     if query.data == "bebas_": 
         query.message.edit_text( 
@@ -429,7 +429,7 @@ def bebas_busbas_callback(update, context):
 
 
 @run_async      
-def aku_kamu_callback(update, context):   
+def Aku_kamu_callback(update, context):   
     query = update.callback_query 
     if query.data == "aku_": 
         query.message.edit_text( 
@@ -456,7 +456,7 @@ def aku_kamu_callback(update, context):
 
 
 @run_async        
-def oplet_opet_callback(update, context):   
+def Oplet_opet_callback(update, context):   
     query = update.callback_query 
     if query.data == "oplet_": 
         query.message.edit_text( 
@@ -494,7 +494,7 @@ def oplet_opet_callback(update, context):
 
 
 @run_async        
-def kemem_memek_callback(update, context):
+def Kemem_memek_callback(update, context):
     query = update.callback_query
     if query.data == "kemem_":
         query.message.edit_text( 
@@ -938,6 +938,24 @@ def main():
     about_callback_handler = CallbackQueryHandler(
         Fallen_about_callback, pattern=r"fallen_"
     )
+    memek_allback_handler = CallbackQueryHandler(
+        Kemem_memek_callback, pattern=r"kemem_" 
+    )
+    opet_callback_handler = CallbackQueryHandler( 
+        Oplet_opet_callback, pattern=r"opet_" 
+    )
+    kamu_callback_handler = CallbackQueryHandler( 
+        Aku_kamu_callback, pattern=r"aku_" 
+    )
+    busbas_callback_handler = CallbackQueryHandler( 
+        Bebas_busbas_callback, pattern=r"bebas_" 
+    )
+    kanjut_callback_handler = CallbackQueryHandler(
+        Laer_kanjut_callback, pattern=r"laer_"
+    )
+    prindapan_callback_handler = CallbackQueryHandler(
+        Rexa_prindapan_callback, pattern=r"rexa_"
+    )
     source_callback_handler = CallbackQueryHandler(
         Source_about_callback, pattern=r"source_"
     )
@@ -945,7 +963,13 @@ def main():
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
 
     dispatcher.add_handler(start_handler)
-    dispatcher.add_handler(help_handler)
+    dispatcher.add_handler(help_handler) 
+    dispatcher.add_handler(memek_allback_handler)
+    dispatcher.add_handler(opet_callback_handler)
+    dispatcher.add_handler(kamu_callback_handler)
+    dispatcher.add_handler(busbas_callback_handler)
+    dispatcher.add_handler(kanjut_callback_handler)
+    dispatcher.add_handler(prindapan_callback_handler)
     dispatcher.add_handler(about_callback_handler)
     dispatcher.add_handler(source_callback_handler)
     dispatcher.add_handler(settings_handler)
