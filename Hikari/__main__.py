@@ -513,7 +513,7 @@ def Kemem_memek_callback(update, context):
                     InlineKeyboardButton(text="ᴘᴇʀɪɴᴛᴀʜ ᴇxsᴛʀᴀ", callback_data="laer_"),
                  ],
                  [ 
-                    InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="kintil_"), 
+                    InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="rexa_"), 
                  ]
                 ] 
             ), 
