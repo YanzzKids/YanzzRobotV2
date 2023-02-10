@@ -77,7 +77,7 @@ PM_START_TEXT = """
 *sᴀʏᴀ ᴀᴅᴀʟᴀʜ* {} !
 ʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ᴛᴇʟᴇɢʀᴀᴍ ᴅᴇɴɢᴀɴ ʙᴇʙᴇʀᴀᴘᴀ ꜰɪᴛᴜʀ ʏᴀɴɢ ᴍᴇɴɢᴀɢᴜᴍᴋᴀɴ ᴅᴀɴ ʙᴇʀɢᴜɴᴀ.*
 ──────────────────
-• *ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ʙᴀɴᴛᴜᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ɪɴꜰᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ᴍᴏᴅᴜʟ ᴅᴀɴ ᴘᴇʀɪɴᴛᴀʜ.*
+*• ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ʙᴀɴᴛᴜᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ɪɴꜰᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ᴍᴏᴅᴜʟ ᴅᴀɴ ᴘᴇʀɪɴᴛᴀʜ.*
 """
 
 buttons = [
@@ -88,7 +88,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ʙᴀɴᴛᴜᴀɴ", callback_data="menu_"),
+        InlineKeyboardButton(text="ʙᴀɴᴛᴜᴀɴ", callback_data="rexa_"),
     ],
     [
         InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", callback_data="fallen_"),
@@ -348,7 +348,7 @@ def help_button(update, context):
 @run_async
 def Rexa_prindapan_callback(update, context): 
     query = update.callback_query 
-    if query.data == "menu_": 
+    if query.data == "rexa_": 
         query.message.edit_text( 
             text=f"ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ."
             "\n\nᴘɪʟɪʜ ᴍᴇɴᴜ ᴅɪʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴍᴇɴᴜ ʙᴀɴᴛᴜᴀɴ.",
