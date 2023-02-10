@@ -5,7 +5,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://github.com/Rexashh/HikariManageRobotV2/blob/master/Hikari/resources/lv_0_20230209035321.gif">
+  <img src="https://github.com/Rexashh/photos/blob/main/gif/xaprojectblack.gif">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʜɪᴋᴀʀɪ ʀᴏʙᴏᴛ](https://t.me/HikariManageRobot)**_
