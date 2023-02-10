@@ -5,7 +5,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://github.com/AnonymousX1025/FallenRobot/blob/master/Hikari/resources/lv_0_20230209035321.gif">
+  <img src="https://github.com/Rexashh/HikariManageRobotV2/blob/master/Hikari/resources/lv_0_20230209035321.gif">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʜɪᴋᴀʀɪ ʀᴏʙᴏᴛ](https://t.me/HikariManageRobot)**_
@@ -48,7 +48,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʜɪᴋᴀʀɪ ʀ�
 - <b> ᴠᴘs/ʟᴏᴄᴀʟ ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ </b>
 </h3></summary>
 
-- Get your [Necessary Variables](https://github.com/AnonymousX1025/FallenRobot/blob/master/FallenRobot/config.py)
+- Get your [Necessary Variables](https://github.com/Rexashh/HikariManageRobotV2/blob/master/HikariManageRobotV2/config.py)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install required packages by :
