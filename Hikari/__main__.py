@@ -529,7 +529,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             text=f"*ʜᴀʟᴏ sᴀʏᴀ ʜɪᴋᴀʀɪ {BOT_NAME}*",
             "\n*ʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜsɪᴋ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɴᴅᴀ ᴍᴇɴɢᴇʟᴏʟᴀ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ᴍᴜᴅᴀʜ ᴅᴀɴ ᴜɴᴛᴜᴋ ᴍᴇʟɪɴᴅᴜɴɢɪ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴀʀɪ sᴄᴀᴍᴍᴇʀ ᴅᴀɴ sᴘᴀᴍᴍᴇʀ.*"
             "\nᴅɪʙᴜᴀᴛ ᴅᴇɴɢᴀɴ ♥️  .*"
-            "\n\n────────────────────",
+            "\n\n────────────────────"
             f"\n• *ᴀᴋᴛɪꜰ sᴇᴊᴀᴋ* » {uptime}"
             f"\n• *ᴘᴇɴɢɢᴜɴᴀ* » {sql.num_users()}"
             f"\n• *ɢʀᴏᴜᴘ* » {sql.num_chats()}"
@@ -537,7 +537,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             "\n\n• ᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴʏᴜᴋᴀɪ ʜɪᴋᴀʀɪ ᴅᴀɴ ɪɴɢɪɴ ʙᴇʀᴋᴏɴᴛʀɪʙᴜsɪ  ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɢᴀʀ ʜɪᴋᴀʀɪ ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ."
             "\n\n• ᴋᴀʟɪᴀɴ ʙɪsᴀ ʙᴇʀᴅᴏɴᴀsɪ ᴠɪᴀ ᴅᴀɴᴀ :* 💶 089677134384."
             "\nᴀᴛᴀᴜ ᴋᴀʟɪᴀɴ ʙɪsᴀ ʜᴜʙᴜɴɢɪ ᴏᴡɴᴇʀ ᴅɪʙᴀᴡᴀʜ ɪɴɪ."
-            "\n\n• ᴅᴀɴ ᴜɴᴛᴜᴋ ʏᴀɴɢ sᴜᴅᴀʜ ʙᴇʀᴅᴏɴᴀsɪ sᴀʏᴀ ᴜᴄᴀᴘᴋᴀɴ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ʙᴀɴʏᴀᴋ 🙏."
+            "\n\n• ᴅᴀɴ ᴜɴᴛᴜᴋ ʏᴀɴɢ sᴜᴅᴀʜ ʙᴇʀᴅᴏɴᴀsɪ sᴀʏᴀ ᴜᴄᴀᴘᴋᴀɴ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ʙᴀɴʏᴀᴋ 🙏.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
