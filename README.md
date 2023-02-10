@@ -10,20 +10,6 @@
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʜɪᴋᴀʀɪ ʀᴏʙᴏᴛ](https://t.me/HikariManageRobot)**_
 ━━━━━━━━━━━━━━━━━━━━
-
-<p align="center">
-<a href="https://github.com/Rexashh/HikariManageRobot/stargazers"><img src="https://img.shields.io/github/stars/Rexashh/HikariManageRobot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/Rexashh/network/members"> <img src="https://img.shields.io/github/forks/Rexashh/HikariManageRobot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/Rexashh/HikariManageRobot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
-<a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=white&label=telethon&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/Rexashh/HikariManageRobot"> <img src="https://img.shields.io/github/repo-size/Rexashh/HikariManageRobot?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/Rexashh/HikariManageRobot/commits/Rexashh"> <img src="https://img.shields.io/github/last-commit/Rexashh/HikariManageRobot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-</p>
-
-━━━━━━━━━━━━━━━━━━━━
-
 <p align="center">
   <img src="hhttps://telegra.ph/file/0606cd07a8ebe0e8acb32.jpg">
 </p>
@@ -100,7 +86,7 @@ Press `Ctrl+b` and then `d`
 </h3>
 
 - <b>[ʀᴇxᴀ](https://github.com/Rexashh)<b>
-- <b>[ᴘᴇʟᴇʀ](https://github.com/AnonymousX1025/FallenRobot) </b>
+- <b>[ʙᴀɴᴛᴀɴɪ](https://github.com/waraxe123)</b>
 <b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/Rexashh/HikariManageRobotV2) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʜɪᴋᴀʀɪ ᴍᴀɴᴀɢᴇ ʀᴏʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
 
 ━━━━━━━━━━━━━━━━━━━━
