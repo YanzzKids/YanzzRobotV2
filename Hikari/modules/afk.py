@@ -8,7 +8,7 @@ from pyrogram.types import Message
 
 from Hikari import pbot
 from Hikari.modules.helper_funcs.readable_time import get_readable_time
-from Hikari.modules.sql.afk_afk import set_afk, is_afk, rm_afk
+from Hikari.modules.sql.afk_sql import set_afk, is_afk, rm_afk
 
 
 @pbot.on_message(filters.command(["afk", "brb"]))
