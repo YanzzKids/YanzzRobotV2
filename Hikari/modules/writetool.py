@@ -14,16 +14,16 @@ def handwrite(update: Update, context: CallbackContext):
         text = message.reply_to_message.text
     else:
         text = update.effective_message.text.split(None, 1)[1]
-    m = message.reply_text("Writing the text...")
+    m = message.reply_text("Menulis teks...")
     req = requests.get(f"https://api.sdbots.tk/write?text={text}").url
     message.reply_photo(
         photo=req,
         caption=f"""
-Successfully Written Text 💘
+Teks Berhasil Ditulis 🚀
 
-✨ **Written By :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
-🥀 **Requested by :** {update.effective_user.first_name}
-❄ **Link :** `{req}`""",
+✏️ **Nulis by :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
+👤 **Permintaan dari :** {update.effective_user.first_name}
+🔗 **telegraph  :** `{req}`""",
         parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -37,15 +37,15 @@ Successfully Written Text 💘
 
 
 __help__ = """
- Writes the given text on white page with a pen 🖊
+ Menulis teks yang diberikan pada halaman putih dengan pensil 🖊
 
-❍ /write <text> *:* Writes the given text.
+• /nulis <text> *:* Menulis teks yang diberikan.
 """
 
 WRITE_HANDLER = DisableAbleCommandHandler("write", handwrite)
 
 dispatcher.add_handler(WRITE_HANDLER)
 
-__mod_name__ = "WʀɪᴛᴇTᴏᴏʟ"
-__command_list__ = ["write"]
+__mod_name__ = "ɴᴜʟɪs"
+__command_list__ = ["nulis"]
 __handlers__ = [WRITE_HANDLER]
