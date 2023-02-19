@@ -92,11 +92,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", callback_data="fallen_"),
-        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/WynneSupports"),
     ],
     [
         InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="xᴀ ᴘʀᴏᴊᴇᴄᴛ", callback_data="source_"),
+        InlineKeyboardButton(text="ᴡʏɴɴᴇ ᴘꝛᴏᴊᴇᴄᴛ", callback_data="source_"),
     ],
 ]
 
@@ -535,7 +535,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             f"\n• *ɢʀᴏᴜᴘ* » {sql.num_chats()}"
             "\n────────────────────"
             "\n\n• ᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴʏᴜᴋᴀɪ ʜɪᴋᴀʀɪ ᴅᴀɴ ɪɴɢɪɴ ʙᴇʀᴋᴏɴᴛʀɪʙᴜsɪ  ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɢᴀʀ ʜɪᴋᴀʀɪ ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ."
-            "\n\n• ᴋᴀʟɪᴀɴ ʙɪsᴀ ʙᴇʀᴅᴏɴᴀsɪ ᴠɪᴀ ᴅᴀɴᴀ :* 💶 089677134384."
+            "\n\n• ᴋᴀʟɪᴀɴ ʙɪsᴀ ʙᴇʀᴅᴏɴᴀsɪ ᴠɪᴀ ᴅᴀ : [ᴅᴀɴᴀ](https://link.dana.id/qr/2wlxmofz)."
             "\nᴀᴛᴀᴜ ᴋᴀʟɪᴀɴ ʙɪsᴀ ʜᴜʙᴜɴɢɪ ᴏᴡɴᴇʀ ᴅɪʙᴀᴡᴀʜ ɪɴɪ."
             "\n\n• ᴅᴀɴ ᴜɴᴛᴜᴋ ʏᴀɴɢ sᴜᴅᴀʜ ʙᴇʀᴅᴏɴᴀsɪ sᴀʏᴀ ᴜᴄᴀᴘᴋᴀɴ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ʙᴀɴʏᴀᴋ 🙏.",
             parse_mode=ParseMode.MARKDOWN,
