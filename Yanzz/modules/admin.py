@@ -6,11 +6,11 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-from Hikari import DRAGONS, dispatcher
-from Hikari.modules.disable import DisableAbleCommandHandler
-from Hikari.modules.helper_funcs.admin_rights import user_can_changeinfo
-from Hikari.modules.helper_funcs.alternate import send_message
-from Hikari.modules.helper_funcs.chat_status import (
+from Yanzz import DRAGONS, dispatcher
+from Yanzz.modules.disable import DisableAbleCommandHandler
+from Yanzz.modules.helper_funcs.admin_rights import user_can_changeinfo
+from Yanzz.modules.helper_funcs.alternate import send_message
+from Yanzz.modules.helper_funcs.chat_status import (
     ADMIN_CACHE,
     bot_admin,
     can_pin,
@@ -18,11 +18,11 @@ from Hikari.modules.helper_funcs.chat_status import (
     connection_status,
     user_admin,
 )
-from Hikari.modules.helper_funcs.extraction import (
+from Yanzz.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from Hikari.modules.log_channel import loggable
+from Yanzz.modules.log_channel import loggable
 
 
 @run_async
