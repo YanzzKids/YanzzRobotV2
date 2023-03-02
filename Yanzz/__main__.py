@@ -26,8 +26,8 @@ from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 from telethon import __version__ as tlhver
 
-import Hikari.modules.sql.users_sql as sql
-from Hikari import (
+import Yanzz.modules.sql.users_sql as sql
+from Yanzz import (
     BOT_NAME,
     BOT_USERNAME,
     LOGGER,
@@ -41,9 +41,9 @@ from Hikari import (
     telethn,
     updater,
 )
-from Hikari.modules import ALL_MODULES
-from Hikari.modules.helper_funcs.chat_status import is_user_admin
-from Hikari.modules.helper_funcs.misc import paginate_modules
+from Yanzz.modules import ALL_MODULES
+from Yanzz.modules.helper_funcs.chat_status import is_user_admin
+from Yanzz.modules.helper_funcs.misc import paginate_modules
 
 
 def get_readable_time(seconds: int) -> str:
@@ -119,7 +119,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("Hikari.modules." + module_name)
+    imported_module = importlib.import_module("Yanzz.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
