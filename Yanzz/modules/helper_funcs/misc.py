@@ -13,7 +13,7 @@ from telegram import (
 )
 from telegram.error import TelegramError
 
-from Hikari import NO_LOAD
+from Yanzz import NO_LOAD
 
 
 class EqInlineKeyboardButton(InlineKeyboardButton):
