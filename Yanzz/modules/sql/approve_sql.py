@@ -3,7 +3,7 @@ import threading
 from sqlalchemy import Column, String
 from sqlalchemy.sql.sqltypes import BigInteger
 
-from Hikari.modules.sql import BASE, SESSION
+from Yanzz.modules.sql import BASE, SESSION
 
 
 class Approvals(BASE):
