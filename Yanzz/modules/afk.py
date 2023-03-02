@@ -5,13 +5,13 @@ from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
 
-from Hikari import dispatcher
-from Hikari.modules.disable import (
+from Yanzz import dispatcher
+from Yanzz.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from Hikari.modules.sql import afk_sql as sql
-from Hikari.modules.users import get_user_id
+from Yanzz.modules.sql import afk_sql as sql
+from Yanzz.modules.users import get_user_id
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
