@@ -5,7 +5,7 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from Hikari import (
+from Yanzz import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -15,8 +15,8 @@ from Hikari import (
     WOLVES,
     dispatcher,
 )
-from Hikari.modules.disable import DisableAbleCommandHandler
-from Hikari.modules.helper_funcs.chat_status import (
+from Yanzz.modules.disable import DisableAbleCommandHandler
+from Yanzz.modules.helper_funcs.chat_status import (
     bot_admin,
     can_delete,
     can_restrict,
@@ -27,9 +27,9 @@ from Hikari.modules.helper_funcs.chat_status import (
     user_admin,
     user_can_ban,
 )
-from Hikari.modules.helper_funcs.extraction import extract_user_and_text
-from Hikari.modules.helper_funcs.string_handling import extract_time
-from Hikari.modules.log_channel import gloggable, loggable
+from Yanzz.modules.helper_funcs.extraction import extract_user_and_text
+from Yanzz.modules.helper_funcs.string_handling import extract_time
+from Yanzz.modules.log_channel import gloggable, loggable
 
 
 @run_async
