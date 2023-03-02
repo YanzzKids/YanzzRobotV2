@@ -9,8 +9,8 @@ from contextlib import redirect_stdout
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from Hikari import LOGGER, dispatcher
-from Hikari.modules.helper_funcs.chat_status import dev_plus
+from Yanzz import LOGGER, dispatcher
+from Yanzz.modules.helper_funcs.chat_status import dev_plus
 
 namespaces = {}
 
