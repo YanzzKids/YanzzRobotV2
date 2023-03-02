@@ -45,7 +45,7 @@ if ENV:
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
     NO_LOAD = os.environ.get("NO_LOAD", "").split()
     START_IMG = os.environ.get(
-        "START_IMG", "https://graph.org/file/c6df36a7d520629723295.jpg"
+        "START_IMG", "https://graph.org/YanzzRobot-03-02-2"
     )
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "rexaprivateroom")
@@ -142,13 +142,13 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1224143544)
+DEV_USERS.add(1141626067)
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("Hikari", API_ID, API_HASH)
 
-pbot = Client("HikariRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+pbot = Client("YanzzRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 aiohttpsession = ClientSession()
 
