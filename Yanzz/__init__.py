@@ -146,9 +146,9 @@ DEV_USERS.add(1141626067)
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("Hikari", API_ID, API_HASH)
+telethn = TelegramClient("Yanzz", API_ID, API_HASH)
 
-pbot = Client("YanzzRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+pbot = Client("Yanzz", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 aiohttpsession = ClientSession()
 
