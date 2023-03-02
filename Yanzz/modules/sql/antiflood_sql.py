@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import BigInteger, Column, String, UnicodeText
 
-from Hikari.modules.sql import BASE, SESSION
+from Yanzz.modules.sql import BASE, SESSION
 
 DEF_COUNT = 1
 DEF_LIMIT = 0
