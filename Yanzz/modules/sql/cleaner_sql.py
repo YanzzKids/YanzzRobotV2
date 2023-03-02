@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Boolean, Column, UnicodeText
 
-from Hikari.modules.sql import BASE, SESSION
+from Yanzz.modules.sql import BASE, SESSION
 
 
 class CleanerBlueTextChatSettings(BASE):
