@@ -4,8 +4,8 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.enums import ChatType
 
-from Hikari import pbot
-from Hikari.utils.mongo import get_couple, save_couple
+from Yanzz import pbot
+from Yanzz.utils.mongo import get_couple, save_couple
 
 
 # Date and time
