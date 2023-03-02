@@ -12,9 +12,9 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown
 
-from Hikari import dispatcher
-from Hikari.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
-from Hikari.modules.helper_funcs.misc import is_module_loaded
+from Yanzz import dispatcher
+from Yanzz.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
+from Yanzz.modules.helper_funcs.misc import is_module_loaded
 
 FILENAME = __name__.rsplit(".", 1)[-1]
 
@@ -22,12 +22,12 @@ FILENAME = __name__.rsplit(".", 1)[-1]
 if is_module_loaded(FILENAME):
     from telegram.ext.dispatcher import run_async
 
-    from Hikari.modules.helper_funcs.chat_status import (
+    from Yanzz.modules.helper_funcs.chat_status import (
         connection_status,
         is_user_admin,
         user_admin,
     )
-    from Hikari.modules.sql import disable_sql as sql
+    from Yanzz.modules.sql import disable_sql as sql
 
     DISABLE_CMDS = []
     DISABLE_OTHER = []
