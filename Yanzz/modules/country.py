@@ -1,8 +1,8 @@
 import flag
 from countryinfo import CountryInfo
 
-from Hikari import BOT_NAME, telethn
-from Hikari.events import register
+from Yanzz import BOT_NAME, telethn
+from Yanzz.events import register
 
 
 @register(pattern="^/country (.*)")
