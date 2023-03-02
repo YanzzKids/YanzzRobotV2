@@ -9,10 +9,10 @@ from telegram.ext import (
     run_async,
 )
 
-import Hikari.modules.sql.global_bans_sql as gban_sql
-import Hikari.modules.sql.users_sql as user_sql
-from Hikari import DEV_USERS, OWNER_ID, dispatcher
-from Hikari.modules.helper_funcs.chat_status import dev_plus
+import Yanzz.modules.sql.global_bans_sql as gban_sql
+import Yanzz.modules.sql.users_sql as user_sql
+from Yanzz import DEV_USERS, OWNER_ID, dispatcher
+from Yanzz.modules.helper_funcs.chat_status import dev_plus
 
 
 def get_invalid_chats(update: Update, context: CallbackContext, remove: bool = False):
