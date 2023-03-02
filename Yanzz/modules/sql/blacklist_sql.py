@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import BigInteger, Column, String, UnicodeText, distinct, func
 
-from Hikari.modules.sql import BASE, SESSION
+from Yanzz.modules.sql import BASE, SESSION
 
 
 class BlackListFilters(BASE):
