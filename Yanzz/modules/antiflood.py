@@ -13,19 +13,19 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from Hikari import TIGERS, WOLVES, dispatcher
-from Hikari.modules.connection import connected
-from Hikari.modules.helper_funcs.alternate import send_message
-from Hikari.modules.helper_funcs.chat_status import (
+from Yanzz import TIGERS, WOLVES, dispatcher
+from Yanzz.modules.connection import connected
+from Yanzz.modules.helper_funcs.alternate import send_message
+from Yanzz.modules.helper_funcs.chat_status import (
     bot_admin,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from Hikari.modules.helper_funcs.string_handling import extract_time
-from Hikari.modules.log_channel import loggable
-from Hikari.modules.sql import antiflood_sql as sql
-from Hikari.modules.sql.approve_sql import is_approved
+from Yanzz.modules.helper_funcs.string_handling import extract_time
+from Yanzz.modules.log_channel import loggable
+from Yanzz.modules.sql import antiflood_sql as sql
+from Yanzz.modules.sql.approve_sql import is_approved
 
 FLOOD_GROUP = 3
 
