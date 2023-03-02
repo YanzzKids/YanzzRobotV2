@@ -92,11 +92,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", callback_data="fallen_"),
-        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/WynneSupports"),
+        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/YanzzSupportt"),
     ],
     [
         InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="ᴡʏɴɴᴇ ᴘꝛᴏᴊᴇᴄᴛ", callback_data="source_"),
+        InlineKeyboardButton(text="ʏᴀɴᴢᴢ ᴘꝛᴏᴊᴇᴄᴛ", callback_data="source_"),
     ],
 ]
 
