@@ -10,8 +10,8 @@ from sqlalchemy import (
     func,
 )
 
-from Hikari import dispatcher
-from Hikari.modules.sql import BASE, SESSION
+from Yanzz import dispatcher
+from Yanzz.modules.sql import BASE, SESSION
 
 
 class Users(BASE):
