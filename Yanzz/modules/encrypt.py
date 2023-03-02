@@ -1,6 +1,6 @@
 import secureme
 
-from Hikari.events import register
+from Yanzz.events import register
 
 
 @register(pattern="^/encrypt ?(.*)")
