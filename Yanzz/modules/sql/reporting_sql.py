@@ -3,7 +3,7 @@ from typing import Union
 
 from sqlalchemy import BigInteger, Boolean, Column, String
 
-from Hikari.modules.sql import BASE, SESSION
+from Yanzz.modules.sql import BASE, SESSION
 
 
 class ReportingUserSettings(BASE):
