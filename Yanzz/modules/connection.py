@@ -5,10 +5,10 @@ from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CallbackQueryHandler, CommandHandler, run_async
 
-import Hikari.modules.sql.connection_sql as sql
-from Hikari import DEV_USERS, DRAGONS, dispatcher
-from Hikari.modules.helper_funcs import chat_status
-from Hikari.modules.helper_funcs.alternate import send_message, typing_action
+import Yanzz.modules.sql.connection_sql as sql
+from Yanzz import DEV_USERS, DRAGONS, dispatcher
+from Yanzz.modules.helper_funcs import chat_status
+from Yanzz.modules.helper_funcs.alternate import send_message, typing_action
 
 user_admin = chat_status.user_admin
 
