@@ -1,8 +1,8 @@
 from pyrogram import filters
 
-from Hikari import pbot
-from Hikari.utils.errors import capture_err
-from Hikari.utils.functions import make_carbon
+from Yanzz import pbot
+from Yanzz.utils.errors import capture_err
+from Yanzz.utils.functions import make_carbon
 
 
 @pbot.on_message(filters.command("carbon"))
