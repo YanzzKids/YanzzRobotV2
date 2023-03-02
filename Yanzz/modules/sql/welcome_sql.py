@@ -4,8 +4,8 @@ from typing import Union
 
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 
-from Hikari.modules.helper_funcs.msg_types import Types
-from Hikari.modules.sql import BASE, SESSION
+from Yanzz.modules.helper_funcs.msg_types import Types
+from Yanzz.modules.sql import BASE, SESSION
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
 DEFAULT_GOODBYE = "Nice knowing ya!"
