@@ -1,4 +1,4 @@
-from Hikari import aiohttpsession as session
+from Yanzz import aiohttpsession as session
 
 
 async def post(url: str, *args, **kwargs):
