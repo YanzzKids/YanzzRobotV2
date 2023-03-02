@@ -6,18 +6,18 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, Filters, MessageHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import Hikari.modules.sql.blacklist_sql as sql
-from Hikari import LOGGER, dispatcher
-from Hikari.modules.connection import connected
-from Hikari.modules.disable import DisableAbleCommandHandler
-from Hikari.modules.helper_funcs.alternate import send_message, typing_action
-from Hikari.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from Hikari.modules.helper_funcs.extraction import extract_text
-from Hikari.modules.helper_funcs.misc import split_message
-from Hikari.modules.helper_funcs.string_handling import extract_time
-from Hikari.modules.log_channel import loggable
-from Hikari.modules.sql.approve_sql import is_approved
-from Hikari.modules.warns import warn
+import Yanzz.modules.sql.blacklist_sql as sql
+from Yanzz import LOGGER, dispatcher
+from Yanzz.modules.connection import connected
+from Yanzz.modules.disable import DisableAbleCommandHandler
+from Yanzz.modules.helper_funcs.alternate import send_message, typing_action
+from Yanzz.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from Yanzz.modules.helper_funcs.extraction import extract_text
+from Yanzz.modules.helper_funcs.misc import split_message
+from Yanzz.modules.helper_funcs.string_handling import extract_time
+from Yanzz.modules.log_channel import loggable
+from Yanzz.modules.sql.approve_sql import is_approved
+from Yanzz.modules.warns import warn
 
 BLACKLIST_GROUP = 11
 
