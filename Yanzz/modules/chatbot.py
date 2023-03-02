@@ -23,10 +23,10 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import Hikari.modules.sql.chatbot_sql as sql
-from Hikari import BOT_ID, BOT_NAME, BOT_USERNAME, dispatcher
-from Hikari.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from Hikari.modules.log_channel import gloggable
+import Yanzz.modules.sql.chatbot_sql as sql
+from Yanzz import BOT_ID, BOT_NAME, BOT_USERNAME, dispatcher
+from Yanzz.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from Yanzz.modules.log_channel import gloggable
 
 
 @run_async
