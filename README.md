@@ -5,7 +5,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://graph.org/YanzzRobot-03-02-2">
+  <img src="https://telegra.ph/file/51c8712f990fd5ab751b8.jpg">
 </p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʏᴀɴᴢᴢ ʀᴏʙᴏᴛ](https://t.me/HikariManageRobot)**_
