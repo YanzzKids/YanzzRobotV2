@@ -15,23 +15,23 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from Hikari import DRAGONS, LOGGER, dispatcher
-from Hikari.modules.connection import connected
-from Hikari.modules.disable import DisableAbleCommandHandler
-from Hikari.modules.helper_funcs.alternate import send_message, typing_action
-from Hikari.modules.helper_funcs.chat_status import user_admin
-from Hikari.modules.helper_funcs.extraction import extract_text
-from Hikari.modules.helper_funcs.filters import CustomFilters
-from Hikari.modules.helper_funcs.handlers import MessageHandlerChecker
-from Hikari.modules.helper_funcs.misc import build_keyboard_parser
-from Hikari.modules.helper_funcs.msg_types import get_filter_type
-from Hikari.modules.helper_funcs.string_handling import (
+from Yanzz import DRAGONS, LOGGER, dispatcher
+from Yanzz.modules.connection import connected
+from Yanzz.modules.disable import DisableAbleCommandHandler
+from Yanzz.modules.helper_funcs.alternate import send_message, typing_action
+from Yanzz.modules.helper_funcs.chat_status import user_admin
+from Yanzz.modules.helper_funcs.extraction import extract_text
+from Yanzz.modules.helper_funcs.filters import CustomFilters
+from Yanzz.modules.helper_funcs.handlers import MessageHandlerChecker
+from Yanzz.modules.helper_funcs.misc import build_keyboard_parser
+from Yanzz.modules.helper_funcs.msg_types import get_filter_type
+from Yanzz.modules.helper_funcs.string_handling import (
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
     split_quotes,
 )
-from Hikari.modules.sql import cust_filters_sql as sql
+from Yanzz.modules.sql import cust_filters_sql as sql
 
 HANDLER_GROUP = 10
 
