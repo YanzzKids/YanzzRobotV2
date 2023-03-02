@@ -8,9 +8,9 @@ from telegram import TelegramError, Update
 from telegram.error import Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-import Hikari
-from Hikari import dispatcher
-from Hikari.modules.helper_funcs.chat_status import dev_plus
+import Yanzz
+from Yanzz import dispatcher
+from Yanzz.modules.helper_funcs.chat_status import dev_plus
 
 
 @run_async
