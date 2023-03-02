@@ -1,1 +1,1 @@
-worker: python3 -m YanzzRobot
+worker: python3 -m Yanzz
