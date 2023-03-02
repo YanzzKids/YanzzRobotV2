@@ -1,14 +1,14 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <h2 align="center">
-    ──「 ʜɪᴋᴀʀɪ ᴠ2 」──
+    ──「 ʏᴀɴᴢᴢ ʀᴏʙᴏᴛ ᴠ2 」──
 </h2>
 
 <p align="center">
-  <img src="https://github.com/Rexashh/photos/blob/main/gif/xaprojectblack.gif">
+  <img src="https://graph.org/YanzzRobot-03-02-2">
 </p>
 
-_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʜɪᴋᴀʀɪ ʀᴏʙᴏᴛ](https://t.me/HikariManageRobot)**_
+_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʏᴀɴᴢᴢ ʀᴏʙᴏᴛ](https://t.me/HikariManageRobot)**_
 ━━━━━━━━━━━━━━━━━━━━
 <p align="center">
   <img src="hhttps://telegra.ph/file/0606cd07a8ebe0e8acb32.jpg">
@@ -42,13 +42,13 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʜɪᴋᴀʀɪ ʀ�
 - Install pip by :
 `sudo pip3 install -U pip`
 - Clone the repository by :
-`git clone https://github.com/Rexashh/HikariManageRobotV2  && cd HikariManageRobotV2`
+`git clone https://github.com/YanzzKids/YanzzRobotV2 && cd YanzzRobotV2`
 - Install/Upgrade setuptools by :
 `pip3 install --upgrade pip setuptools`
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in config by :
-`vi FallenRobot/config.py`
+`vi Hikari/config.py`
 
 Press `I` on the keyboard for editing config
 
@@ -56,10 +56,10 @@ Press `Ctrl+C` when you're done with editing config and `:wq` to save the config
 - Install tmux to keep running your bot when you close the terminal by :
 `sudo apt install tmux && tmux`
 - Finally run the bot by :
-`python3 -m FallenRobot`
+`python3 -m YanzzRobot`
 - For getting out from tmux session
 
-Press `Ctrl+b` and then `d`
+Press `Ctrl+b` and then `d` 
 
 <p align="center">
   <img src="hhttps://telegra.ph/file/1cc8397e589e85d749b83.jpg">
@@ -85,7 +85,7 @@ Press `Ctrl+b` and then `d`
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b>[ʀᴇxᴀ](https://github.com/Rexashh)<b>
+- <b>[ʏᴀɴᴢᴢ](https://github.com/YanzzKids)<b>
 - <b>[ʙᴀɴᴛᴀɴɪ](https://github.com/waraxe123)</b>
 <b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/Rexashh/HikariManageRobotV2) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʜɪᴋᴀʀɪ ᴍᴀɴᴀɢᴇ ʀᴏʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
 
