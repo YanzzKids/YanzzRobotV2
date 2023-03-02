@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import BigInteger, Boolean, Column, String, UnicodeText, distinct, func
 
-from Hikari.modules.helper_funcs.msg_types import Types
-from Hikari.modules.sql import BASE, SESSION
+from Yanzz.modules.helper_funcs.msg_types import Types
+from Yanzz.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):
