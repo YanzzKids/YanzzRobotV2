@@ -5,7 +5,7 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
 from Hikari import MONGO_DB_URI
 
 mongo = MongoCli(MONGO_DB_URI)
-db = mongo.Hikari
+db = mongo.Yanzz
 
 coupledb = db.couple
 karmadb = db.karma
