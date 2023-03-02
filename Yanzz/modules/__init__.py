@@ -1,4 +1,4 @@
-from Hikari import LOAD, LOGGER, NO_LOAD
+from Yanzz import LOAD, LOGGER, NO_LOAD
 
 
 def __list_all_modules():
