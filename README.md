@@ -48,7 +48,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʏᴀɴᴢᴢ ʀᴏ
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in config by :
-`vi Hikari/config.py`
+`vi Yanzz/config.py`
 
 Press `I` on the keyboard for editing config
 
