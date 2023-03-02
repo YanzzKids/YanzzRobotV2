@@ -6,16 +6,16 @@ from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandle
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html, mention_markdown
 
-import Hikari.modules.sql.blsticker_sql as sql
-from Hikari import LOGGER, dispatcher
-from Hikari.modules.connection import connected
-from Hikari.modules.disable import DisableAbleCommandHandler
-from Hikari.modules.helper_funcs.alternate import send_message
-from Hikari.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from Hikari.modules.helper_funcs.misc import split_message
-from Hikari.modules.helper_funcs.string_handling import extract_time
-from Hikari.modules.log_channel import loggable
-from Hikari.modules.warns import warn
+import Yanzz.modules.sql.blsticker_sql as sql
+from Yanzz import LOGGER, dispatcher
+from Yanzz.modules.connection import connected
+from Yanzz.modules.disable import DisableAbleCommandHandler
+from Yanzz.modules.helper_funcs.alternate import send_message
+from Yanzz.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from Yanzz.modules.helper_funcs.misc import split_message
+from Yanzz.modules.helper_funcs.string_handling import extract_time
+from Yanzz.modules.log_channel import loggable
+from Yanzz.modules.warns import warn
 
 
 @run_async
