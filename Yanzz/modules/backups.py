@@ -7,22 +7,22 @@ from telegram import ParseMode
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-# from Hikari.modules.sql import warns_sql as warnssql
-import Hikari.modules.sql.blacklist_sql as blacklistsql
+# from Yanzz.modules.sql import warns_sql as warnssql
+import Yanzz.modules.sql.blacklist_sql as blacklistsql
 
-# from Hikari.modules.sql import cust_filters_sql as filtersql
-# import Hikari.modules.sql.welcome_sql as welcsql
-import Hikari.modules.sql.locks_sql as locksql
-import Hikari.modules.sql.notes_sql as sql
+# from Yanzz.modules.sql import cust_filters_sql as filtersql
+# import Yanzz.modules.sql.welcome_sql as welcsql
+import Yanzz.modules.sql.locks_sql as locksql
+import Yanzz.modules.sql.notes_sql as sql
 
-# from Hikari.modules.rules import get_rules
-import Hikari.modules.sql.rules_sql as rulessql
-from Hikari import EVENT_LOGS, LOGGER, OWNER_ID, SUPPORT_CHAT, dispatcher
-from Hikari.__main__ import DATA_IMPORT
-from Hikari.modules.connection import connected
-from Hikari.modules.helper_funcs.alternate import typing_action
-from Hikari.modules.helper_funcs.chat_status import user_admin
-from Hikari.modules.sql import disable_sql as disabledsql
+# from Yanzz.modules.rules import get_rules
+import Yanzz.modules.sql.rules_sql as rulessql
+from Yanzz import EVENT_LOGS, LOGGER, OWNER_ID, SUPPORT_CHAT, dispatcher
+from Yanzz.__main__ import DATA_IMPORT
+from Yanzz.modules.connection import connected
+from Yanzz.modules.helper_funcs.alternate import typing_action
+from Yanzz.modules.helper_funcs.chat_status import user_admin
+from Yanzz.modules.sql import disable_sql as disabledsql
 
 
 @run_async
