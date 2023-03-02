@@ -75,7 +75,7 @@ PM_START_TEXT = """
 *ʜᴀʟᴏ* {}, 👋🏻
 
 *sᴀʏᴀ ᴀᴅᴀʟᴀʜ* {} !
-ʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ᴛᴇʟᴇɢʀᴀᴍ ᴅᴇɴɢᴀɴ ʙᴇʙᴇʀᴀᴘᴀ ꜰɪᴛᴜʀ ʏᴀɴɢ ᴍᴇɴɢᴀɢᴜᴍᴋᴀɴ ᴅᴀɴ ʙᴇʀɢᴜɴᴀ.
+ʙᴏᴛ ᴍᴜsɪᴄ+ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ᴛᴇʟᴇɢʀᴀᴍ ᴅᴇɴɢᴀɴ ʙᴇʙᴇʀᴀᴘᴀ ꜰɪᴛᴜʀ ʏᴀɴɢ ᴍᴇɴɢᴀɢᴜᴍᴋᴀɴ ᴅᴀɴ ʙᴇʀɢᴜɴᴀ.
 ──────────────────
 *• ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ʙᴀɴᴛᴜᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ɪɴꜰᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ᴍᴏᴅᴜʟ ᴅᴀɴ ᴘᴇʀɪɴᴛᴀʜ.*
 """
@@ -91,12 +91,12 @@ buttons = [
         InlineKeyboardButton(text="ʙᴀɴᴛᴜᴀɴ", callback_data="rexa_"),
     ],
     [
-        InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", callback_data="fallen_"),
+        InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", callback_data="donasi_"),
         InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/YanzzSupportt"),
     ],
     [
         InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="ʏᴀɴᴢᴢ ᴘꝛᴏᴊᴇᴄᴛ", callback_data="source_"),
+        InlineKeyboardButton(text="ʙᴜᴀᴛ ʙᴏᴛᴍᴜ ᴅɪꜱɪɴɪ", callback_data="source_"),
     ],
 ]
 
@@ -510,7 +510,7 @@ def Kemem_memek_callback(update, context):
                  ],
                  [ 
                     InlineKeyboardButton(text="ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ", callback_data="bebas_"),
-                    InlineKeyboardButton(text="ᴘᴇʀɪɴᴛᴀʜ ᴇxsᴛʀᴀ", callback_data="laer_"),
+                    InlineKeyboardButton(text="ᴘᴇʀɪɴᴛᴀʜ ᴇxᴛʀᴀ", callback_data="laer_"),
                  ],
                  [ 
                     InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="rexa_"), 
@@ -534,8 +534,8 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             f"\n• *ᴘᴇɴɢɢᴜɴᴀ* » {sql.num_users()}"
             f"\n• *ɢʀᴏᴜᴘ* » {sql.num_chats()}"
             "\n────────────────────"
-            "\n\n• ᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴʏᴜᴋᴀɪ ʜɪᴋᴀʀɪ ᴅᴀɴ ɪɴɢɪɴ ʙᴇʀᴋᴏɴᴛʀɪʙᴜsɪ  ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɢᴀʀ ʜɪᴋᴀʀɪ ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ."
-            "\n\n• ᴋᴀʟɪᴀɴ ʙɪsᴀ ʙᴇʀᴅᴏɴᴀsɪ ᴠɪᴀ ᴅᴀ : 💶 ᴅᴀɴᴀ +6285156822270 ."
+            "\n\n• ᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴʏᴜᴋᴀɪ ʜɪᴋᴀʀɪ ᴅᴀɴ ɪɴɢɪɴ ʙᴇʀᴋᴏɴᴛʀɪʙᴜsɪ  ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɢᴀʀ ʏᴀɴᴢᴢ ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ."
+            "\n\n• ᴋᴀʟɪᴀɴ ʙɪsᴀ ʙᴇʀᴅᴏɴᴀsɪ ᴠɪᴀ ᴅᴀ : 💶 ᴅᴀɴᴀ +6281211355304 ."
             "\nᴀᴛᴀᴜ ᴋᴀʟɪᴀɴ ʙɪsᴀ ʜᴜʙᴜɴɢɪ ᴏᴡɴᴇʀ ᴅɪʙᴀᴡᴀʜ ɪɴɪ."
             "\n\n• ᴅᴀɴ ᴜɴᴛᴜᴋ ʏᴀɴɢ sᴜᴅᴀʜ ʙᴇʀᴅᴏɴᴀsɪ sᴀʏᴀ ᴜᴄᴀᴘᴋᴀɴ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ʙᴀɴʏᴀᴋ 🙏.",
             parse_mode=ParseMode.MARKDOWN,
@@ -587,7 +587,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="ɢɪᴛʜᴜʙ",
-                            url="https://github.com/Rexashh",
+                            url="https://github.com/YanzzKids",
                         ),
                     ],
                     [
@@ -606,6 +606,31 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             disable_web_page_preview=True,
         )
 
+@run_async
+def donasi_about_callback(update, context):
+    query = update.callback_query
+    if query.data == "donasi_":
+        query.message.edit_text( 
+            text=f"""
+👨‍💻 Untuk yang ingin berdonasi sebagai ucapan terimakasih kepada Pembuat Yanzz,
+
+ • Via Dana / Gojek 081211355304 atau
+
+ • Silahkan Hubungi Owner atau klik dibawah ini  
+ parse_mode=ParseMode.MARKDOWN, 
+            disable_web_page_preview=True, 
+            reply_markup=InlineKeyboardMarkup( 
+                [
+                 [
+                    InlineKeyboardButton(text="ʏᴀɴᴢᴢ", url=f"https://t.me/BotMr07"),
+                    InlineKeyboardButton(text="ʏᴀɴᴢᴢ ᴘꝛᴏᴊᴇᴄᴛ", url=f"https://t.me/YanzzProject/4,
+                 [
+                    InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="fallen_back"),
+                 ]
+                ]
+            ),
+         )
+ 
 
 @run_async
 def Source_about_callback(update: Update, context: CallbackContext):
@@ -635,11 +660,11 @@ sɪsᴛᴇᴍ ᴛᴇʀɪᴍᴀ ᴊᴀᴅɪ
 
 ᴄᴀᴛᴀᴛᴀɴ 
 
-1. 𝘼𝙋𝘼𝘽𝙄𝙇𝘼 𝘽𝙊𝙏 𝙔𝘼𝙉𝙂 𝘼𝙉𝘿𝘼 𝙄𝙉𝙂𝙄𝙉𝙆𝘼𝙉 𝙏𝙞𝙙𝙖𝙠 𝙖𝙙𝙖 𝙨𝙞𝙡𝙖𝙝𝙠𝙖𝙣 𝙗𝙚𝙧𝙩𝙖𝙣𝙮𝙖 𝙠𝙚 : [↻˹sʏλ](https://t.me/rissaaaw)
+1. 𝘼𝙋𝘼𝘽𝙄𝙇𝘼 𝘽𝙊𝙏 𝙔𝘼𝙉𝙂 𝘼𝙉𝘿𝘼 𝙄𝙉𝙂𝙄𝙉𝙆𝘼𝙉 𝙏𝙞𝙙𝙖𝙠 𝙖𝙙𝙖 𝙨𝙞𝙡𝙖𝙝𝙠𝙖𝙣 𝙗𝙚𝙧𝙩𝙖𝙣𝙮𝙖 𝙠𝙚 : [ʏᴀɴᴢᴢ](https://t.me/BotMr07)
 
 2. ᴄᴀᴛᴀᴛᴀɴ ʜᴇʀᴏᴋᴜ ʀᴀᴡᴀɴ sᴜsᴘᴇɴ ᴊᴀᴅɪ sᴀʏᴀ ᴅᴇᴘʟᴏʏ ᴅɪ ᴠᴘs
 
-3. sɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ [↻˹sʏλ](http://t.me/rissaaaw) ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ / ᴍᴇɴᴀɴʏᴀᴋᴀɴ ᴄᴏɴᴛᴏʜ ʙᴏᴛ
+3. sɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ [ʏᴀɴᴢᴢ](http://t.me/BotMr07) ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ / ᴍᴇɴᴀɴʏᴀᴋᴀɴ ᴄᴏɴᴛᴏʜ ʙᴏᴛ
 
 𝗦𝗘𝗞𝗜𝗔𝗡 𝗧𝗘𝗥𝗜𝗠𝗔 𝗞𝗔𝗦𝗜𝗛 𝗕𝗔𝗡𝗬𝗔𝗞 🙏
 """,
@@ -956,6 +981,9 @@ def main():
     prindapan_callback_handler = CallbackQueryHandler(
         Rexa_prindapan_callback, pattern=r"rexa_"
     )
+    donasi_callback_handler = CallbackQueryHandler(
+        donasi_about_callback, pattern=r"donasi_"
+    )
     source_callback_handler = CallbackQueryHandler(
         Source_about_callback, pattern=r"source_"
     )
@@ -970,6 +998,7 @@ def main():
     dispatcher.add_handler(busbas_callback_handler)
     dispatcher.add_handler(kanjut_callback_handler)
     dispatcher.add_handler(prindapan_callback_handler)
+    dispatcher.add_handler(donasi_callback_handler)
     dispatcher.add_handler(about_callback_handler)
     dispatcher.add_handler(source_callback_handler)
     dispatcher.add_handler(settings_handler)
