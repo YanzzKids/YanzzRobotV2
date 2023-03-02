@@ -1,6 +1,6 @@
 from sqlalchemy import Column, String
 
-from Hikari.modules.sql import BASE, SESSION
+from Yanzz.modules.sql import BASE, SESSION
 
 
 class Nightmode(BASE):
