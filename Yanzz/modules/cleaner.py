@@ -9,15 +9,15 @@ from telegram.ext import (
     run_async,
 )
 
-from Hikari import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from Hikari.modules.disable import DisableAbleCommandHandler
-from Hikari.modules.helper_funcs.chat_status import (
+from Yanzz import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from Yanzz.modules.disable import DisableAbleCommandHandler
+from Yanzz.modules.helper_funcs.chat_status import (
     bot_can_delete,
     connection_status,
     dev_plus,
     user_admin,
 )
-from Hikari.modules.sql import cleaner_sql as sql
+from Yanzz.modules.sql import cleaner_sql as sql
 
 CMD_STARTERS = ("/", "!") if ALLOW_EXCL else "/"
 BLUE_TEXT_CLEAN_GROUP = 13
