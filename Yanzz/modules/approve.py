@@ -5,12 +5,12 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import Hikari.modules.sql.approve_sql as sql
-from Hikari import DRAGONS, dispatcher
-from Hikari.modules.disable import DisableAbleCommandHandler
-from Hikari.modules.helper_funcs.chat_status import user_admin
-from Hikari.modules.helper_funcs.extraction import extract_user
-from Hikari.modules.log_channel import loggable
+import Yanzz.modules.sql.approve_sql as sql
+from Yanzz import DRAGONS, dispatcher
+from Yanzz.modules.disable import DisableAbleCommandHandler
+from Yanzz.modules.helper_funcs.chat_status import user_admin
+from Yanzz.modules.helper_funcs.extraction import extract_user
+from Yanzz.modules.log_channel import loggable
 
 
 @loggable
