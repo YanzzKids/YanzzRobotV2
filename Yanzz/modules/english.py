@@ -5,7 +5,7 @@ from PyDictionary import PyDictionary
 from telethon import *
 from telethon.tl.types import *
 
-from Hikari.events import register
+from Yanzz.events import register
 
 API_KEY = "6ae0c3a0-afdc-4532-a810-82ded0054236"
 URL = "http://services.gingersoftware.com/Ginger/correct/json/GingerTheText"
