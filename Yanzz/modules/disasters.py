@@ -7,7 +7,7 @@ from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-from Hikari import (
+from Yanzz import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -17,13 +17,13 @@ from Hikari import (
     WOLVES,
     dispatcher,
 )
-from Hikari.modules.helper_funcs.chat_status import (
+from Yanzz.modules.helper_funcs.chat_status import (
     dev_plus,
     sudo_plus,
     whitelist_plus,
 )
-from Hikari.modules.helper_funcs.extraction import extract_user
-from Hikari.modules.log_channel import gloggable
+from Yanzz.modules.helper_funcs.extraction import extract_user
+from Yanzz.modules.log_channel import gloggable
 
 ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "Hikari/elevated_users.json")
 
