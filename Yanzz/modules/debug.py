@@ -5,8 +5,8 @@ from telegram import Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telethon import events
 
-from Hikari import dispatcher, telethn
-from Hikari.modules.helper_funcs.chat_status import dev_plus
+from Yanzz import dispatcher, telethn
+from Yanzz.modules.helper_funcs.chat_status import dev_plus
 
 DEBUG_MODE = False
 
