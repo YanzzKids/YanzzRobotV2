@@ -8,10 +8,10 @@
   <img src="https://telegra.ph/file/51c8712f990fd5ab751b8.jpg">
 </p>
 
-_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʏᴀɴᴢᴢ ʀᴏʙᴏᴛ](https://t.me/HikariManageRobot)**_
+_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʏᴀɴᴢᴢ ʀᴏʙᴏᴛ](https://t.me/YanzzRobot)**_
 ━━━━━━━━━━━━━━━━━━━━
 <p align="center">
-  <img src="hhttps://telegra.ph/file/0606cd07a8ebe0e8acb32.jpg">
+  <img src="https://telegra.ph/file/0606cd07a8ebe0e8acb32.jpg">
 </p>
 
 <p align="center">
