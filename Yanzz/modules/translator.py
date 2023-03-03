@@ -2,8 +2,8 @@ from gpytranslate import SyncTranslator
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext
 
-from Hikari import dispatcher
-from Hikari.modules.disable import DisableAbleCommandHandler
+from Yanzz import dispatcher
+from Yanzz.modules.disable import DisableAbleCommandHandler
 
 trans = SyncTranslator()
 
