@@ -3,10 +3,10 @@ import textwrap
 
 from PIL import Image, ImageDraw, ImageFont
 
-from Hikari import telethn as bot
-from Hikari.events import register
+from Yanzz import telethn as bot
+from Yanzz.events import register
 
-Credit = "AnonymousBoy1025"
+Credit = "Yanzz"
 
 
 @register(pattern="^/mmf ?(.*)")
