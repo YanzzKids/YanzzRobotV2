@@ -3,8 +3,8 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Upda
 from telegram.ext import CallbackContext
 from telegram.ext.dispatcher import run_async
 
-from Hikari import BOT_NAME, BOT_USERNAME, dispatcher
-from Hikari.modules.disable import DisableAbleCommandHandler
+from Yanzz import BOT_NAME, BOT_USERNAME, dispatcher
+from Yanzz.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
