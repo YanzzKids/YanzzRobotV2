@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from telegram import __version__ as o
 from telethon import __version__ as s
 
-from Hikari import BOT_NAME, BOT_USERNAME, OWNER_ID, START_IMG, pbot
+from Yanzz import BOT_NAME, BOT_USERNAME, OWNER_ID, START_IMG, pbot
 
 
 @pbot.on_message(filters.command(["repo", "source"]))
@@ -17,7 +17,7 @@ async def repo(_, message: Message):
 
 ɪ ᴀᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME})**
 
-**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦
+**» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :** ʏᴀɴᴢᴢ
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
 **» ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{o}` 
 **» ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{s}` 
@@ -29,7 +29,7 @@ async def repo(_, message: Message):
                     InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=OWNER_ID),
                     InlineKeyboardButton(
                         "sᴏᴜʀᴄᴇ",
-                        url="https://github.com/AnonymousX1025/Hikari",
+                        url="https://github.com/YanzzKids/YanzzRobotV2",
                     ),
                 ]
             ]
