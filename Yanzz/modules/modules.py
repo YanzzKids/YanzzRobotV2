@@ -4,8 +4,8 @@ import importlib
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 
-from Hikari import dispatcher, telethn
-from Hikari.__main__ import (
+from Yanzz import dispatcher, telethn
+from Yanzz.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
@@ -16,7 +16,7 @@ from Hikari.__main__ import (
     USER_INFO,
     USER_SETTINGS,
 )
-from Hikari.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from Yanzz.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 
 
 @run_async
