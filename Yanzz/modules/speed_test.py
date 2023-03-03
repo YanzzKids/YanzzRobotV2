@@ -2,9 +2,9 @@ import speedtest
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
-from Hikari import DEV_USERS, dispatcher
-from Hikari.modules.disable import DisableAbleCommandHandler
-from Hikari.modules.helper_funcs.chat_status import dev_plus
+from Yanzz import DEV_USERS, dispatcher
+from Yanzz.modules.disable import DisableAbleCommandHandler
+from Yanzz.modules.helper_funcs.chat_status import dev_plus
 
 
 def convert(speed):
