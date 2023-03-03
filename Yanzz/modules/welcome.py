@@ -23,9 +23,9 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html, mention_markdown
 
-import Hikari
-import Hikari.modules.sql.welcome_sql as sql
-from Hikari import (
+import Yanzz
+import Yanzz.modules.sql.welcome_sql as sql
+from Yanzz import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -36,18 +36,18 @@ from Hikari import (
     WOLVES,
     dispatcher,
 )
-from Hikari.modules.helper_funcs.chat_status import (
+from Yanzz.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from Hikari.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from Hikari.modules.helper_funcs.msg_types import get_welcome_type
-from Hikari.modules.helper_funcs.string_handling import (
+from Yanzz.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from Yanzz.modules.helper_funcs.msg_types import get_welcome_type
+from Yanzz.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from Hikari.modules.log_channel import loggable
-from Hikari.modules.sql.global_bans_sql import is_user_gbanned
+from Yanzz.modules.log_channel import loggable
+from Yanzz.modules.sql.global_bans_sql import is_user_gbanned
 
 VALID_WELCOME_FORMATTERS = [
     "first",
