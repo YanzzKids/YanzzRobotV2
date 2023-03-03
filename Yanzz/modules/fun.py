@@ -6,11 +6,11 @@ from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, run_async
 
-import Hikari.modules.fun_strings as fun_strings
-from Hikari import dispatcher
-from Hikari.modules.disable import DisableAbleCommandHandler
-from Hikari.modules.helper_funcs.chat_status import is_user_admin
-from Hikari.modules.helper_funcs.extraction import extract_user
+import Yanzz.modules.fun_strings as fun_strings
+from Yanzz import dispatcher
+from Yanzz.modules.disable import DisableAbleCommandHandler
+from Yanzz.modules.helper_funcs.chat_status import is_user_admin
+from Yanzz.modules.helper_funcs.extraction import extract_user
 
 GIF_ID = "CgACAgQAAx0CSVUvGgAC7KpfWxMrgGyQs-GUUJgt-TSO8cOIDgACaAgAAlZD0VHT3Zynpr5nGxsE"
 
