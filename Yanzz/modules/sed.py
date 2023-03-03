@@ -5,9 +5,9 @@ import telegram
 from telegram import Update
 from telegram.ext import CallbackContext, Filters, run_async
 
-from Hikari import LOGGER, dispatcher
-from Hikari.modules.disable import DisableAbleMessageHandler
-from Hikari.modules.helper_funcs.regex_helper import infinite_loop_check
+from Yanzz import LOGGER, dispatcher
+from Yanzz.modules.disable import DisableAbleMessageHandler
+from Yanzz.modules.helper_funcs.regex_helper import infinite_loop_check
 
 DELIMITERS = ("/", ":", "|", "_")
 
