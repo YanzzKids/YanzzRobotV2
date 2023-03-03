@@ -3,8 +3,8 @@ import time
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from Hikari import StartTime, dispatcher
-from Hikari.modules.disable import DisableAbleCommandHandler
+from Yanzz import StartTime, dispatcher
+from Yanzz.modules.disable import DisableAbleCommandHandler
 
 
 def get_readable_time(seconds: int) -> str:
