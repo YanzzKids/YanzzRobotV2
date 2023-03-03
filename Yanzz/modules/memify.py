@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw, ImageFont
 from Yanzz import telethn as bot
 from Yanzz.events import register
 
-Credit = "Yanzz"
+Credit = "AnonymousBoy1025"
 
 
 @register(pattern="^/mmf ?(.*)")
@@ -61,7 +61,7 @@ async def drawText(image_path, text):
         fnt = "ariel.ttf"
 
     else:
-        fnt = "./Hikari/resources/default.ttf"
+        fnt = "./Yanzz/resources/default.ttf"
 
     m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
 
