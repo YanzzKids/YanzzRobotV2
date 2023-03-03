@@ -5,9 +5,9 @@ import zipfile
 from telethon import types
 from telethon.tl import functions
 
-from Hikari import TEMP_DOWNLOAD_DIRECTORY
-from Hikari import telethn as client
-from Hikari.events import register
+from Yanzz import TEMP_DOWNLOAD_DIRECTORY
+from Yanzz import telethn as client
+from Yanzz.events import register
 
 
 async def is_register_admin(chat, user):
