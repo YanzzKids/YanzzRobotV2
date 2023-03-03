@@ -4,8 +4,8 @@ from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler
 from telegram.ext.dispatcher import run_async
 
-from Hikari import LOGGER, dispatcher
-from Hikari.modules.helper_funcs.chat_status import dev_plus
+from Yanzz import LOGGER, dispatcher
+from Yanzz.modules.helper_funcs.chat_status import dev_plus
 
 
 @dev_plus
