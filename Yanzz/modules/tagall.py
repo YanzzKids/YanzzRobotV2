@@ -5,7 +5,7 @@ from telethon.errors import UserNotParticipantError
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantCreator
 
-from Hikari import telethn as client
+from Yanzz import telethn as client
 
 spam_chats = []
 
