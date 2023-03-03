@@ -14,8 +14,8 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import Hikari.modules.sql.global_bans_sql as sql
-from Hikari import (
+import Yanzz.modules.sql.global_bans_sql as sql
+from Yanzz import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -27,17 +27,17 @@ from Hikari import (
     WOLVES,
     dispatcher,
 )
-from Hikari.modules.helper_funcs.chat_status import (
+from Yanzz.modules.helper_funcs.chat_status import (
     is_user_admin,
     support_plus,
     user_admin,
 )
-from Hikari.modules.helper_funcs.extraction import (
+from Yanzz.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from Hikari.modules.helper_funcs.misc import send_to_list
-from Hikari.modules.sql.users_sql import get_user_com_chats
+from Yanzz.modules.helper_funcs.misc import send_to_list
+from Yanzz.modules.sql.users_sql import get_user_com_chats
 
 GBAN_ENFORCE_GROUP = 6
 
