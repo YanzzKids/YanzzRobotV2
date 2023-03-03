@@ -2,10 +2,10 @@ import asyncio
 
 from pyrogram import filters
 
-from Hikari import OWNER_ID, pbot
-from Hikari.utils.admins import can_change_info
-from Hikari.utils.errors import capture_err
-from Hikari.utils.mongo import (
+from Yanzz import OWNER_ID, pbot
+from Yanzz.utils.admins import can_change_info
+from Yanzz.utils.errors import capture_err
+from Yanzz.utils.mongo import (
     alpha_to_int,
     get_karma,
     get_karmas,
@@ -16,8 +16,8 @@ from Hikari.utils.mongo import (
     update_karma,
 )
 
-regex_upvote = r"^((?i)\+|\+\+|\+1|\+69|thx|thanx|thanks|🖤|❣️|💝|💖|💕|❤|💘|cool|good|👍|baby|thankyou|love|pro)$"
-regex_downvote = r"^(\-|\-\-|\-1|👎|💔|noob|weak|fuck off|nub|gey|kid|shit|mf)$"
+regex_upvote = r"^((?i)\+|\+\+|\+1|\+69|thx|thanx|thanks|makasih|gg|🖤|❣️|💝|💖|💕|❤|💘|cool|good|👍|baby|thankyou|love|pro)$"
+regex_downvote = r"^(\-|\-\-|\-1|👎|💔|noob|tolol|fuck off|nub|gey|kid|shit|mf|poke|bego|idiot)$"
 
 karma_positive_group = 3
 karma_negative_group = 4
