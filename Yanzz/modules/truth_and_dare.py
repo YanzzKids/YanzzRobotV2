@@ -2,8 +2,8 @@ import requests
 from telegram import Update
 from telegram.ext import CallbackContext
 
-from Hikari import dispatcher
-from Hikari.modules.disable import DisableAbleCommandHandler
+from Yanzz import dispatcher
+from Yanzz.modules.disable import DisableAbleCommandHandler
 
 
 def truth(update: Update, context: CallbackContext):
