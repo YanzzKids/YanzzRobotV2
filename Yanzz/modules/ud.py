@@ -2,8 +2,8 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from Hikari import dispatcher
-from Hikari.modules.disable import DisableAbleCommandHandler
+from Yanzz import dispatcher
+from Yanzz.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
