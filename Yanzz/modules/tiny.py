@@ -3,8 +3,8 @@ import os
 import cv2
 from PIL import Image
 
-from Hikari import telethn as tbot
-from Hikari.events import register
+from Yanzz import telethn as tbot
+from Yanzz.events import register
 
 
 @register(pattern="^/tiny ?(.*)")
@@ -15,7 +15,7 @@ async def _(event):
         return
     kontol = await event.reply("`Processing tiny...`")
     ik = await tbot.download_media(reply)
-    im1 = Image.open("Hikari/resources/blank_background.png")
+    im1 = Image.open("Yanzz/resources/blank_background.png")
     if ik.endswith(".tgs"):
         await tbot.download_media(reply, "blank_background.tgs")
         os.system("lottie_convert.py blank_background.tgs json.json")
