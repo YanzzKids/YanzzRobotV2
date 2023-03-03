@@ -5,8 +5,8 @@ from io import BytesIO
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Hikari import pbot as app
-from Hikari.utils.post import post
+from Yanzz import pbot as app
+from Yanzz.utils.post import post
 
 
 async def take_screenshot(url: str, full: bool = False):
