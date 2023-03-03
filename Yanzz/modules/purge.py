@@ -2,8 +2,8 @@ import time
 
 from telethon import events
 
-from Hikari import telethn
-from Hikari.modules.helper_funcs.telethn.chatstatus import (
+from Yanzz import telethn
+from Yanzz.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
 )
