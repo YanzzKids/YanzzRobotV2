@@ -18,8 +18,8 @@ from telethon import events
 from telethon.tl.functions.channels import GetFullChannelRequest
 from telethon.tl.types import ChannelParticipantsAdmins
 
-import Hikari.modules.sql.userinfo_sql as sql
-from Hikari import (
+import Yanzz.modules.sql.userinfo_sql as sql
+from Yanzz import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -29,14 +29,14 @@ from Hikari import (
     WOLVES,
     dispatcher,
 )
-from Hikari import telethn as FallenTelethonClient
-from Hikari.__main__ import STATS, TOKEN, USER_INFO
-from Hikari.modules.disable import DisableAbleCommandHandler
-from Hikari.modules.helper_funcs.chat_status import sudo_plus
-from Hikari.modules.helper_funcs.extraction import extract_user
-from Hikari.modules.sql.afk_sql import check_afk_status, is_afk
-from Hikari.modules.sql.global_bans_sql import is_user_gbanned
-from Hikari.modules.sql.users_sql import get_user_num_chats
+from Yanzz import telethn as FallenTelethonClient
+from Yanzz.__main__ import STATS, TOKEN, USER_INFO
+from Yanzz.modules.disable import DisableAbleCommandHandler
+from Yanzz.modules.helper_funcs.chat_status import sudo_plus
+from Yanzz.modules.helper_funcs.extraction import extract_user
+from Yanzz.modules.sql.afk_sql import check_afk_status, is_afk
+from Yanzz.modules.sql.global_bans_sql import is_user_gbanned
+from Yanzz.modules.sql.users_sql import get_user_num_chats
 
 
 def no_by_per(totalhp, percentage):
