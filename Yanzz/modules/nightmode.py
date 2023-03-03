@@ -2,10 +2,10 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from telethon import functions, types
 from telethon.tl.types import ChatBannedRights
 
-from Hikari import BOT_NAME
-from Hikari import telethn as tbot
-from Hikari.events import register
-from Hikari.modules.sql.night_mode_sql import (
+from Yanzz import BOT_NAME
+from Yanzz import telethn as tbot
+from Yanzz.events import register
+from Yanzz.modules.sql.night_mode_sql import (
     add_nightmode,
     get_all_chat_id,
     is_nightmode_indb,
@@ -66,14 +66,14 @@ openhehe = ChatBannedRights(
 async def close_ws(event):
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
-            await event.reply("🤦🏻‍♂️You are not admin so you can't use this command...")
+            await event.reply("🤦🏻‍♂️Anda bukan admin sehingga Anda tidak dapat menggunakan perintah ini...")
             return
 
     if not event.is_group:
-        await event.reply("You Can Only Enable Night Mode in Groups.")
+        await event.reply("Anda Hanya Dapat Mengaktifkan Mode Malam di Grup.")
         return
     if is_nightmode_indb(str(event.chat_id)):
-        await event.reply("This Chat is Has Already Enabled Night Mode.")
+        await event.reply("Obrolan Ini Sudah Mengaktifkan Mode Malam.")
         return
     add_nightmode(str(event.chat_id))
     await event.reply(
@@ -85,14 +85,14 @@ async def close_ws(event):
 async def disable_ws(event):
     if event.is_group:
         if not (await is_register_admin(event.input_chat, event.message.sender_id)):
-            await event.reply("🤦🏻‍♂️You are not admin so you can't use this command...")
+            await event.reply("🤦🏻‍♂️Anda bukan admin sehingga Anda tidak dapat menggunakan perintah ini...")
             return
 
     if not event.is_group:
-        await event.reply("You Can Only Disable Night Mode in Groups.")
+        await event.reply("Anda Hanya Dapat Menonaktifkan Mode Malam di Grup.")
         return
     if not is_nightmode_indb(str(event.chat_id)):
-        await event.reply("This Chat is Has Not Enabled Night Mode.")
+        await event.reply("Obrolan Ini Belum Mengaktifkan Mode Malam.")
         return
     rmnightmode(str(event.chat_id))
     await event.reply(
@@ -108,7 +108,7 @@ async def job_close():
         try:
             await tbot.send_message(
                 int(warner.chat_id),
-                f"**Night Mode Started**\n\n`Group Is Closing Till 6 Am, Only admins can messages in this chat.`\n\n__Powered By {BOT_NAME}__",
+                f"**Night Mode Started**\n\n`Grup Ditutup Hingga Jam 6 Pagi, Hanya admin yang dapat mengirim pesan di obrolan ini.`\n\n__Powered By {BOT_NAME}__",
             )
             await tbot(
                 functions.messages.EditChatDefaultBannedRightsRequest(
@@ -116,7 +116,7 @@ async def job_close():
                 )
             )
         except Exception as e:
-            logger.info(f"Unable To Close Group {warner} - {e}")
+            logger.info(f"Tidak Dapat Menutup Grup {warner} - {e}")
 
 
 # Run everyday at 12am
@@ -133,7 +133,7 @@ async def job_open():
         try:
             await tbot.send_message(
                 int(warner.chat_id),
-                f"**Night Mode Ended**\n\n`Group is opening again now everyone can send messages in this chat.`\n__Powered By {BOT_NAME}__",
+                f"**Mode Malam Berakhir**\n\n`Group is opening again now everyone can send messages in this chat.`\n__Powered By {BOT_NAME}__",
             )
             await tbot(
                 functions.messages.EditChatDefaultBannedRightsRequest(
@@ -141,7 +141,7 @@ async def job_open():
                 )
             )
         except Exception as e:
-            logger.info(f"Unable To Open Group {warner.chat_id} - {e}")
+            logger.info(f"Tidak Dapat Membuka Grup {warner.chat_id} - {e}")
 
 
 # Run everyday at 06
@@ -152,10 +152,10 @@ scheduler.start()
 __help__ = """
 *Admins Only*
 
- ❍ /nightmode*:* Adds Group to NightMode Chats
- ❍ /rmnight*:* Removes Group From NightMode Chats
+ ❍ /nightmode*:* Menambahkan Grup ke Obrolan Mode Malam
+ ❍ /rmnight*:* Hapus Grup Dari Obrolan Mode Malam
 
-*Note:* Night Mode chats get Automatically closed at 12 am(IST) and Automatically openned at 6 am(IST) to Prevent Night Spams.
+*Note:* Obrolan Mode Malam ditutup secara otomatis pada pukul 12 AM(WIB) pagi dan dibuka secara otomatis pada pukul 6 AM(WIB) untuk Mencegah Spam Malam.
 """
 
 __mod_name__ = "Nɪɢʜᴛ​"
