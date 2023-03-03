@@ -25,26 +25,26 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-from Hikari import TIGERS, WOLVES, dispatcher
-from Hikari.modules.disable import DisableAbleCommandHandler
-from Hikari.modules.helper_funcs.chat_status import (
+from Yanzz import TIGERS, WOLVES, dispatcher
+from Yanzz.modules.disable import DisableAbleCommandHandler
+from Yanzz.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from Hikari.modules.helper_funcs.extraction import (
+from Yanzz.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from Hikari.modules.helper_funcs.filters import CustomFilters
-from Hikari.modules.helper_funcs.misc import split_message
-from Hikari.modules.helper_funcs.string_handling import split_quotes
-from Hikari.modules.log_channel import loggable
-from Hikari.modules.sql import warns_sql as sql
-from Hikari.modules.sql.approve_sql import is_approved
+from Yanzz.modules.helper_funcs.filters import CustomFilters
+from Yanzz.modules.helper_funcs.misc import split_message
+from Yanzz.modules.helper_funcs.string_handling import split_quotes
+from Yanzz.modules.log_channel import loggable
+from Yanzz.modules.sql import warns_sql as sql
+from Yanzz.modules.sql.approve_sql import is_approved
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"
