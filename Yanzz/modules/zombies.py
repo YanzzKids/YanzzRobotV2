@@ -3,8 +3,8 @@ from asyncio import sleep
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Hikari import pbot
-from Hikari.utils.admins import can_restrict
+from Yanzz import pbot
+from Yanzz.utils.admins import can_restrict
 
 
 @pbot.on_message(filters.command(["zombies", "ghosts"]))
