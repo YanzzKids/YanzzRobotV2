@@ -2,9 +2,9 @@ from geopy.geocoders import Nominatim
 from telethon import *
 from telethon.tl import *
 
-from Hikari import *
-from Hikari import telethn as tbot
-from Hikari.events import register
+from Yanzz import *
+from Yanzz import telethn as tbot
+from Yanzz.events import register
 
 GMAPS_LOC = "https://maps.googleapis.com/maps/api/geocode/json"
 
