@@ -5,8 +5,8 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from Hikari import TIME_API_KEY, dispatcher
-from Hikari.modules.disable import DisableAbleCommandHandler
+from Yanzz import TIME_API_KEY, dispatcher
+from Yanzz.modules.disable import DisableAbleCommandHandler
 
 
 def generate_time(to_find: str, findtype: List[str]) -> str:
