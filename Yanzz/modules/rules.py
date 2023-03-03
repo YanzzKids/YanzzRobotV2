@@ -3,10 +3,10 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler
 from telegram.utils.helpers import escape_markdown
 
-import Hikari.modules.sql.rules_sql as sql
-from Hikari import dispatcher
-from Hikari.modules.helper_funcs.chat_status import connection_status, user_admin
-from Hikari.modules.helper_funcs.string_handling import markdown_parser
+import Yanzz.modules.sql.rules_sql as sql
+from Yanzz import dispatcher
+from Yanzz.modules.helper_funcs.chat_status import connection_status, user_admin
+from Yanzz.modules.helper_funcs.string_handling import markdown_parser
 
 
 @connection_status
