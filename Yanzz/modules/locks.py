@@ -7,20 +7,20 @@ from telegram.ext import CommandHandler, Filters, MessageHandler
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html
 
-import Hikari.modules.sql.locks_sql as sql
-from Hikari import DRAGONS, LOGGER, dispatcher
-from Hikari.modules.connection import connected
-from Hikari.modules.disable import DisableAbleCommandHandler
-from Hikari.modules.helper_funcs.alternate import send_message, typing_action
-from Hikari.modules.helper_funcs.chat_status import (
+import Yanzz.modules.sql.locks_sql as sql
+from Yanzz import DRAGONS, LOGGER, dispatcher
+from Yanzz.modules.connection import connected
+from Yanzz.modules.disable import DisableAbleCommandHandler
+from Yanzz.modules.helper_funcs.alternate import send_message, typing_action
+from Yanzz.modules.helper_funcs.chat_status import (
     can_delete,
     is_bot_admin,
     is_user_admin,
     user_admin,
     user_not_admin,
 )
-from Hikari.modules.log_channel import loggable
-from Hikari.modules.sql.approve_sql import is_approved
+from Yanzz.modules.log_channel import loggable
+from Yanzz.modules.sql.approve_sql import is_approved
 
 
 def al_detect(unistr):
