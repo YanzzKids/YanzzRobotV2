@@ -20,13 +20,13 @@ from telegram.ext import (
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import escape_markdown, mention_markdown
 
-import Hikari.modules.sql.notes_sql as sql
-from Hikari import DRAGONS, EVENT_LOGS, LOGGER, SUPPORT_CHAT, dispatcher
-from Hikari.modules.disable import DisableAbleCommandHandler
-from Hikari.modules.helper_funcs.chat_status import connection_status, user_admin
-from Hikari.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from Hikari.modules.helper_funcs.msg_types import get_note_type
-from Hikari.modules.helper_funcs.string_handling import (
+import Yanzz.modules.sql.notes_sql as sql
+from Yanzz import DRAGONS, EVENT_LOGS, LOGGER, SUPPORT_CHAT, dispatcher
+from Yanzz.modules.disable import DisableAbleCommandHandler
+from Yanzz.modules.helper_funcs.chat_status import connection_status, user_admin
+from Yanzz.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from Yanzz.modules.helper_funcs.msg_types import get_note_type
+from Yanzz.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 
