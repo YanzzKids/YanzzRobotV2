@@ -2,7 +2,7 @@ import requests
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Hikari import pbot
+from Yanzz import pbot
 
 
 @pbot.on_message(filters.command(["imdb", "tmdb"]))
