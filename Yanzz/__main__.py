@@ -617,8 +617,8 @@ def Donasi_about_callback(update: Update, context):
 
  • Via Dana / Gojek 081211355304 atau
 
- • Silahkan Hubungi Owner atau klik dibawah ini  
- parse_mode=ParseMode.MARKDOWN, 
+ • Silahkan Hubungi Owner atau klik dibawah ini, 
+            parse_mode=ParseMode.MARKDOWN, 
             disable_web_page_preview=True, 
             reply_markup=InlineKeyboardMarkup( 
                [
