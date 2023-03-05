@@ -143,7 +143,7 @@ def bot(**args):
     return decorator
 
 
-def Hikari(**args):
+def Yanzz(**args):
     pattern = args.get("pattern", None)
     args.get("disable_edited", False)
     ignore_unsafe = args.get("ignore_unsafe", False)
