@@ -613,7 +613,7 @@ def Donasi_about_callback(update: Update, context):
     if query.data == "donasi_":
         query.message.edit_text( 
             text=f"""
-👨‍💻 Untuk yang ingin berdonasi sebagai ucapan terimakasih kepada Pembuat Yanzz,
+👨‍💻 Untuk yang ingin berdonasi sebagai ucapan terimakasih kepada Pembuat {BOT_NAME},
 
  • Via Dana / Gojek 081211355304 atau
 
@@ -621,11 +621,12 @@ def Donasi_about_callback(update: Update, context):
  parse_mode=ParseMode.MARKDOWN, 
             disable_web_page_preview=True, 
             reply_markup=InlineKeyboardMarkup( 
+               [
                 [
-                 [
                     InlineKeyboardButton(text="ʏᴀɴᴢᴢ", url=f"https://t.me/BotMr07"),
-                    InlineKeyboardButton(text="ʏᴀɴᴢᴢ ᴘꝛᴏᴊᴇᴄᴛ", url=f"https://t.me/YanzzProject/4,
-                 [
+                    InlineKeyboardButton(text="ʏᴀɴᴢᴢ ᴘꝛᴏᴊᴇᴄᴛ", url=f"https://t.me/YanzzProject/4)
+                ],
+                [
                     InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="fallen_back"),
                  ]
                 ]
