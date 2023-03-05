@@ -72,7 +72,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴀʟᴏ* {}, 👋🏻
+*ʜᴀʟᴏ* {}, [👋🏻]{START_IMG}
 
 *sᴀʏᴀ ᴀᴅᴀʟᴀʜ* {} !
 ʙᴏᴛ ᴍᴜsɪᴄ+ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ᴛᴇʟᴇɢʀᴀᴍ ᴅᴇɴɢᴀɴ ʙᴇʙᴇʀᴀᴘᴀ ꜰɪᴛᴜʀ ʏᴀɴɢ ᴍᴇɴɢᴀɢᴜᴍᴋᴀɴ ᴅᴀɴ ʙᴇʀɢᴜɴᴀ.
@@ -88,25 +88,25 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ʙᴀɴᴛᴜᴀɴ", callback_data="rexa_"),
+        InlineKeyboardButton(text="📋 ʙᴀɴᴛᴜᴀɴ", callback_data="rexa_"),
     ],
     [
-        InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", callback_data="donasi_"),
-        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/YanzzSupportt"),
+        InlineKeyboardButton(text="💌 ᴅᴏɴᴀsɪ", callback_data="donasi_"),
+        InlineKeyboardButton(text="📌sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="ʙᴜᴀᴛ ʙᴏᴛᴍᴜ ᴅɪꜱɪɴɪ", callback_data="source_"),
+        InlineKeyboardButton(text="🧸 ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="👨‍💻 ʙᴜᴀᴛ ʙᴏᴛᴍᴜ ᴅɪꜱɪɴɪ", callback_data="source_"),
     ],
 ]
 
 HELP_STRINGS = f"""
 *» {BOT_NAME} ғɪᴛᴜʀ ᴇxʟᴜsɪᴠᴇ*
 
-≽ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | sᴇʜᴀʀᴜsɴʏᴀ ᴋᴀᴍᴜ sᴜᴅᴀʜ ᴍᴇʟᴀᴋᴜᴋᴀɴɴʏᴀ.
+≽ /start : ꜱᴛᴀʀᴛ ᴍᴇ | sᴇʜᴀʀᴜsɴʏᴀ ᴋᴀᴍᴜ sᴜᴅᴀʜ ᴍᴇʟᴀᴋᴜᴋᴀɴɴʏᴀ.
 ≽ /help  : ʙᴀɢɪᴀɴ ᴘᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ
-  ‣ ᴅɪ ᴘᴍ : ᴀᴋᴜ ᴀᴋᴀɴ ᴍᴇɴɢɪʀɪᴍ ᴍᴜ ʙᴀɴᴛᴜᴀɴ ᴘᴇʀɪɴᴛᴀʜ ᴜɴᴛᴜᴋ sᴇᴍᴜᴀ ᴍᴏᴅᴜʟᴇ.
-  ‣ ᴅɪ ɢʀᴏᴜᴘ : ᴀᴋᴜ ᴀᴋᴀɴ ᴍᴇᴍʙᴀᴡᴀ ᴍᴜ ᴋᴇ ᴘᴍ, ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ sᴇᴍᴜᴀ ᴍᴏᴅᴜʟᴇ ʙᴀɴᴛᴜᴀɴ."""
+  ‣ ᴅɪ ᴘᴍ : ᴀᴋᴜ ᴀᴋᴀɴ ᴍᴇɴɢɪʀɪᴍ ᴍᴜ ʙᴀɴᴛᴜᴀɴ ᴘᴇʀɪɴᴛᴀʜ ᴜɴᴛᴜᴋ sᴇᴍᴜᴀ ᴍᴏᴅᴜʟ.
+  ‣ ᴅɪ ɢʀᴏᴜᴘ : ᴀᴋᴜ ᴀᴋᴀɴ ᴍᴇᴍʙᴀᴡᴀ ᴍᴜ ᴋᴇ ᴘᴍ, ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ sᴇᴍᴜᴀ ᴍᴏᴅᴜʟ ʙᴀɴᴛᴜᴀɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -215,7 +215,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ᴀᴋᴜ sᴇʟᴀʟᴜ ʜɪᴅᴜᴘ!\n<b>ᴅᴀɴ ʙᴇʟᴜᴍ ᴛɪᴅᴜʀ sᴇʟᴀᴍᴀ:</b> <code>{}</code>".format(
+            caption="ᴀᴋᴜ sᴇʟᴀʟᴜ ᴀᴅᴀ ᴜɴᴛᴜᴋᴍᴜ!\n<b>ᴅᴀɴ ʙᴇʟᴜᴍ ᴛɪᴅᴜʀ sᴇʟᴀᴍᴀ:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -304,7 +304,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="◁", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="help_back")]]
                 ),
             )
 
@@ -357,8 +357,8 @@ def Rexa_prindapan_callback(update, context):
             reply_markup=InlineKeyboardMarkup( 
                 [
                  [
-                    InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data="help_back"),
-                    InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="kemem_"),
+                    InlineKeyboardButton(text="🤖 ᴍᴀɴᴀɢᴇ", callback_data="help_back"),
+                    InlineKeyboardButton(text="🎧 ᴍᴜsɪᴄ", callback_data="kemem_"),
                  ],
                  [
                     InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="fallen_back"),
@@ -526,7 +526,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
     if query.data == "fallen_":
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_text(
-            text=f"*ʜᴀʟᴏ sᴀʏᴀ ʜɪᴋᴀʀɪ {BOT_NAME}*"
+            text=f"*ʜᴀʟᴏ sᴀʏᴀ {BOT_NAME}*"
             "\n*ʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜsɪᴋ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɴᴅᴀ ᴍᴇɴɢᴇʟᴏʟᴀ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ᴍᴜᴅᴀʜ ᴅᴀɴ ᴜɴᴛᴜᴋ ᴍᴇʟɪɴᴅᴜɴɢɪ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴀʀɪ sᴄᴀᴍᴍᴇʀ ᴅᴀɴ sᴘᴀᴍᴍᴇʀ.*"
             "\nᴅɪʙᴜᴀᴛ ᴅᴇɴɢᴀɴ ♥️  .*"
             "\n\n────────────────────"
@@ -534,7 +534,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             f"\n• *ᴘᴇɴɢɢᴜɴᴀ* » {sql.num_users()}"
             f"\n• *ɢʀᴏᴜᴘ* » {sql.num_chats()}"
             "\n────────────────────"
-            "\n\n• ᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴʏᴜᴋᴀɪ ʜɪᴋᴀʀɪ ᴅᴀɴ ɪɴɢɪɴ ʙᴇʀᴋᴏɴᴛʀɪʙᴜsɪ  ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɢᴀʀ ʏᴀɴᴢᴢ ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ."
+            "\n\n• ᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴʏᴜᴋᴀɪ {BOT_NAME} ᴅᴀɴ ɪɴɢɪɴ ʙᴇʀᴋᴏɴᴛʀɪʙᴜsɪ  ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɢᴀʀ ʏᴀɴᴢᴢ ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ."
             "\n\n• ᴋᴀʟɪᴀɴ ʙɪsᴀ ʙᴇʀᴅᴏɴᴀsɪ ᴠɪᴀ ᴅᴀ : 💶 ᴅᴀɴᴀ +6281211355304 ."
             "\nᴀᴛᴀᴜ ᴋᴀʟɪᴀɴ ʙɪsᴀ ʜᴜʙᴜɴɢɪ ᴏᴡɴᴇʀ ᴅɪʙᴀᴡᴀʜ ɪɴɪ."
             "\n\n• ᴅᴀɴ ᴜɴᴛᴜᴋ ʏᴀɴɢ sᴜᴅᴀʜ ʙᴇʀᴅᴏɴᴀsɪ sᴀʏᴀ ᴜᴄᴀᴘᴋᴀɴ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ʙᴀɴʏᴀᴋ 🙏.",
@@ -547,15 +547,15 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="sᴜᴩᴩᴏʀᴛ", callback_data="fallen_support"
                         ),
                         InlineKeyboardButton(
-                            text="ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"
+                            text="ʙᴀɴᴛᴜᴀɴ", callback_data="help_back"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="🧸 ᴘᴇᴍɪʟɪᴋ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="sᴏᴜʀᴄᴇ",
+                            text="🪪 sᴏᴜʀᴄᴇ",
                             callback_data="source_",
                         ),
                     ],
@@ -575,18 +575,18 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="🧑🏻‍💻 ʏᴀɴᴢᴢ ᴘꝛᴏᴊᴇᴄᴛ", url=f"https://t.me/YanzzzProject"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="💌 ᴘᴇᴍʙᴀʀᴜᴀɴ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="🧸 ᴘᴇᴍɪʟɪᴋ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ",
+                            text="📂 ɢɪᴛʜᴜʙ",
                             url="https://github.com/YanzzKids",
                         ),
                     ],
