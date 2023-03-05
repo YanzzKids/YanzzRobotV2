@@ -677,7 +677,7 @@ def Donasi_about_callback(update: Update, context):
                 [
                  [
                     InlineKeyboardButton(text="ʏᴀɴᴢᴢ", url=f"https://t.me/BotMr07"),
-                    InlineKeyboardButton(text="ʏᴀɴᴢᴢ ᴘꝛᴏᴊᴇᴄᴛ", url=f"https://t.me/YanzzProject/4)
+                    InlineKeyboardButton(text="ʏᴀɴᴢᴢ ᴘꝛᴏᴊᴇᴄᴛ", url=f"https://t.me/YanzzProject/4"),
                  ],
                  [
                     InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="fallen_back"),
