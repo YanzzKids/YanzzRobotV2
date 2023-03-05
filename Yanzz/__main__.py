@@ -72,7 +72,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴀʟᴏ* {}, [👋🏻]{START_IMG}
+*ʜᴀʟᴏ* {},👋🏻
 
 *sᴀʏᴀ ᴀᴅᴀʟᴀʜ* {} !
 ʙᴏᴛ ᴍᴜsɪᴄ+ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ᴛᴇʟᴇɢʀᴀᴍ ᴅᴇɴɢᴀɴ ʙᴇʙᴇʀᴀᴘᴀ ꜰɪᴛᴜʀ ʏᴀɴɢ ᴍᴇɴɢᴀɢᴜᴍᴋᴀɴ ᴅᴀɴ ʙᴇʀɢᴜɴᴀ.
@@ -608,33 +608,6 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
 
 
 @run_async
-def Donasi_about_callback(update: Update, context):
-    query = update.callback_query
-    if query.data == "donasi_":
-        query.message.edit_text( 
-            text=f"""
-👨‍💻 Untuk yang ingin berdonasi sebagai ucapan terimakasih kepada Pembuat {BOT_NAME},
-
- • Via Dana / Gojek 081211355304 atau
-
- • Silahkan Hubungi Owner atau klik dibawah ini, 
-            parse_mode=ParseMode.MARKDOWN, 
-            disable_web_page_preview=True, 
-            reply_markup=InlineKeyboardMarkup( 
-               [
-                [
-                    InlineKeyboardButton(text="ʏᴀɴᴢᴢ", url=f"https://t.me/BotMr07"),
-                    InlineKeyboardButton(text="ʏᴀɴᴢᴢ ᴘꝛᴏᴊᴇᴄᴛ", url=f"https://t.me/YanzzProject/4)
-                ],
-                [
-                    InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="fallen_back"),
-                 ]
-                ]
-            ),
-         )
- 
- 
-@run_async
 def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
@@ -686,6 +659,32 @@ sɪsᴛᴇᴍ ᴛᴇʀɪᴍᴀ ᴊᴀᴅɪ
             disable_web_page_preview=True,
         )
 
+@run_async
+def Donasi_about_callback(update: Update, context):
+    query = update.callback.query
+    if query.data == "donasi_":
+        query.message.edit_text(
+            text=f"""
+  🧑🏻‍💻 Untuk yang ingin berdonasi sebagai ucapan terimakasih kepada Pembuat {BOT_NAME},
+
+ • Via Dana / Gojek 081211355304 atau
+
+ • Silahkan Hubungi Owner atau klik dibawah ini
+ """, 
+            parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                 [
+                    InlineKeyboardButton(text="ʏᴀɴᴢᴢ", url=f"https://t.me/BotMr07"),
+                    InlineKeyboardButton(text="ʏᴀɴᴢᴢ ᴘꝛᴏᴊᴇᴄᴛ", url=f"https://t.me/YanzzProject/4)
+                 ],
+                 [
+                    InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="fallen_back"),
+                 ]
+                ]
+           ),
+        )
 
 @run_async
 def get_help(update: Update, context: CallbackContext):
