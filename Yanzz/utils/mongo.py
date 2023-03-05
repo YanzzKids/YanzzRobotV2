@@ -2,7 +2,7 @@ from typing import Dict, Union
 
 from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
 
-from Hikari import MONGO_DB_URI
+from Yanzz import MONGO_DB_URI
 
 mongo = MongoCli(MONGO_DB_URI)
 db = mongo.Yanzz
