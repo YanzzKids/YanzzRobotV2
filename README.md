@@ -56,7 +56,7 @@ Press `Ctrl+C` when you're done with editing config and `:wq` to save the config
 - Install tmux to keep running your bot when you close the terminal by :
 `sudo apt install tmux && tmux`
 - Finally run the bot by :
-`python3 -m YanzzRobot`
+`python3 -m Yanzz`
 - For getting out from tmux session
 
 Press `Ctrl+b` and then `d` 
@@ -87,6 +87,6 @@ Press `Ctrl+b` and then `d`
 
 - <b>[ʏᴀɴᴢᴢ](https://github.com/YanzzKids)<b>
 - <b>[ʙᴀɴᴛᴀɴɪ](https://github.com/waraxe123)</b>
-<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/Rexashh/HikariManageRobotV2) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʜɪᴋᴀʀɪ ᴍᴀɴᴀɢᴇ ʀᴏʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
+<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/YanzzKids/YanzzRobotV2) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʏᴀɴᴢᴢ ᴍᴀɴᴀɢᴇ ʀᴏʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
 
 ━━━━━━━━━━━━━━━━━━━━
