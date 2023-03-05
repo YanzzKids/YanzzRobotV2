@@ -65,11 +65,11 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/Hikari
-RUN git clone https://github.com/Rexashh/HikariV2 /root/Hikari
-WORKDIR /root/Hikari
+RUN git clone https://github.com/YanzzKids/YanzzRobotV2 /root/YanzzRobotV2
+WORKDIR /root/YanzzRobotV2
 
-#Copy config file to /root/Hikari/Hikari
-COPY ./Hikari/config.py ./Hikari/config.py* /root/Hikari/Hikari/
+#Copy config file to /root/YanzzRobotV2/Yanzz
+COPY ./Yanzz/config.py ./Yanzz/config.py* /root/YanzzRobotV2/Yanzz/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","Hikari"]
+CMD ["python3","-m","Yanzz"]
