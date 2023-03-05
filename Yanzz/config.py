@@ -2,35 +2,26 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    API_ID = 6
-    API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
-
-    CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
-
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
-
-    EVENT_LOGS = ()  # Event logs channel to note down important bot level events
-
-    MONGO_DB_URI = ""  # Get ths value from cloud.mongodb.com
-
-    # Telegraph link of the image which will be shown at start command.
+    API_ID = 13847328
+    API_HASH = ""
+    CASH_API_KEY = ""  # ketik get /cashapi di @YanzzSupportt
+    DATABASE_URL = ""  # ketik get /sql di @YanzzSupportt
+    EVENT_LOGS = ()  # ketik get /eventlogs di @YanzzSupportt
+    MONGO_DB_URI = ""   # ketik get /mongo di @YanzzSupportt
+    # Tautan telegraph dari gambar yang akan ditampilkan pada perintah mulai.
     START_IMG = "https://telegra.ph/file/51c8712f990fd5ab751b8.jpg"
+    SUPPORT_CHAT = "YanzzSupportt"  # Grup Untuk Dukungan kalian
+    TOKEN = ""  # ketik get /tokenbot di @YanzzSupportt
+    TIME_API_KEY = ""  # ketik get /timeapi di @YanzzSupportt
+    OWNER_ID = 1141626067  # User id kamu/owner
 
-    SUPPORT_CHAT = "YanzzSupportt"  # Your Telegram support group chat username where your users will go and bother you
-
-    TOKEN = ""  # Get bot token from @BotFather on Telegram
-
-    TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
-
-    OWNER_ID = 1141626067  # User id of your telegram account (Must be integer)
-
-    # Optional fields
-    BL_CHATS = []  # List of groups that you want blacklisted.
-    DRAGONS = []  # User id of sudo users
-    DEV_USERS = []  # User id of dev users
-    DEMONS = []  # User id of support users
-    TIGERS = []  # User id of tiger users
-    WOLVES = []  # User id of whitelist users
+    # Kolom opsional
+    BL_CHATS = []  # Daftar grup yang ingin Anda daftar hitam.
+    DRAGONS = []  # ID pengguna dari pengguna sudo
+    DEV_USERS = []  # ID pengguna dari pengguna dev
+    DEMONS = []  # ID pengguna dari pengguna pendukung
+    TIGERS = []  # ID pengguna pengguna harimau
+    WOLVES = []  # ID pengguna dari pengguna daftar putih
 
     ALLOW_CHATS = True
     ALLOW_EXCL = True
