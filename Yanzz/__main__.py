@@ -608,7 +608,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
 
 
 @run_async
-def donasi_about_callback(update, context):
+def Donasi_about_callback(update: Update, context):
     query = update.callback_query
     if query.data == "donasi_":
         query.message.edit_text( 
@@ -983,7 +983,7 @@ def main():
         Rexa_prindapan_callback, pattern=r"rexa_"
     )
     donasi_callback_handler = CallbackQueryHandler(
-        donasi_about_callback, pattern=r"donasi_"
+        Donasi_about_callback, pattern=r"donasi_"
     )
     source_callback_handler = CallbackQueryHandler(
         Source_about_callback, pattern=r"source_"
